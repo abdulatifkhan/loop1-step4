@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  color: #222;
+  background-color: rgb(154,182,206);
+  overflow: hidden;
+}
+
+.chat {
+  margin-top: 70px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+
+.chat-manber {
+  display: flex;
+  align-items: center;
+  background-color: rgb(106,150,216);
+  padding: 20px;
+}
+
+.chat-point {
+  width: 6px;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-name {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.chat-close {
+  display: inline-block;
+  margin-left: 170px;
+  width: 24px;
+  height: 24px;
+}
+
+.chat-day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.chat-hr {
+  width: 155px;
+  height: 1px;
+  background-color: rgb(221, 221, 221);
+}
+
+.chat-date {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgb(221, 222, 224);
+  margin: 0 5px;
+}
+
+.chat-talk-list {
+  list-style-type: none;
+  padding: 0 18px;
+  margin: 0;
+}
+
+.chat-talk-item {
+  margin-bottom: 15px;
+}
+
+.chat-talk-item__user-right {
+  margin-left: 75px;
+}
+
+.chat-talk-time__user-right {
+  display: block;
+  padding-left: 260px;
+}
+
+.chat-talk-time {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgb(172, 182, 196);
+}
+
+.chat-talk-text {
+  font-size: 14px;
+  line-height: 1.2;
+  width: 270px;
+  padding: 10px;
+  color: #222;
+  background-color: rgb(230,237,246);
+  border-radius: 5px;
+}
+
+.chat-talk-text__user-right {
+  width: 290px;
+  background-color: rgb(242, 242, 242);
+}
+
+.chat-talk-text-lower {
+  width: 90px;
+}
+
+.chat-stopped {
+  padding: 0px 18px;
+}
+
+.chat-stopped-text {
+  display: block;
+  margin-left: 154px;
+  margin-bottom: 15px;
+  width: 205px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 10px;
+  background-color: rgb(255, 194, 193);
+}
+
+.form-hr {
+  display: block;
+  margin: 0px 20px 20px 20px;
+  width: 360px;
+  height: 1px;
+  background-color: rgb(221, 221, 221);
+}
+
+.chat-write-form {
+  padding: 0px 15px 15px 15px;
+}
+
+.chat-write-input {
+  width: 300px;
+  border: none;
+  outline: none;
+}
+
+.chat-write-button {
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  color: rgb(106, 150, 216);
+  background-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+}
