@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loop 1 - Step 4</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="chat-wrapper">
+    <div class="chat">
+      <div class="chat-manber">
+        <span class="chat-point"></span>
+
+        <p class="chat-name">Mark Zuckerberg</p>
+
+        <img class="chat-close" src="images/close.svg" alt="Close images" width="24" height="24">
+      </div><!-- chat-manber -->
+
+      <div class="chat-day">
+        <span class="chat-hr"></span>
+
+        <div class="chat-date">Today</div>
+
+        <span class="chat-hr"></span>
+      </div><!-- chat-day -->
+
+      <ul class="chat-talk-list">
+        <li class="chat-talk-item chat-talk-item__user-left">
+          <span class="chat-talk-time">10:53</span>
+
+          <div class="chat-talk-text">Hi, Mark! I made a new design for Messenger App.</div>
+        </li><!-- chat-talk-item -->
+
+        <li class="chat-talk-item chat-talk-item__user-right">
+          <span class="chat-talk-time chat-talk-time__user-right">10:57</span>
+
+          <div class="chat-talk-text chat-talk-text__user-right">Yo! Send it to my assistant and we'll review it during the year.</div>
+        </li><!-- chat-talk-item -->
+
+        <li class="chat-talk-item chat-talk-item__user-left">
+          <span class="chat-talk-time">11:03</span>
+
+          <div class="chat-talk-text chat-talk-text-lower">But Mark...</div>
+        </li><!-- chat-talk-item -->
+      </ul><!-- chat-talk-list -->
+
+      <div class="chat-stopped">
+        <span class="chat-stopped-text">You were blocked by the user.</span>
+      </div>
+
+      <span class="form-hr"></span>
+
+      <form class="chat-write-form" action="">
+        <label class="chat-write-label" for="chat-write">
+          <input class="chat-write-input" type="text" id="chat-write" autocomplete="off" placeholder="Enter your messege">
+        </label>
+
+        <button class="chat-write-button">Send</button>
+      </form>
+    </div><!-- chat -->
+  </div><!-- chat-wrapper -->
+</body>
+</html>
